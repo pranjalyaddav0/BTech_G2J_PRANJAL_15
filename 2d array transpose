@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+    int A [20] [20], i, j, r, c;
+    printf("Enter the no. of row and column");
+    scanf("%d%d", &r,&c);
+
+    for (i=0; i<r; i++);
+    {
+        for (j=0; j<c; j++);
+        {
+            printf("Enter A[%d] [%d] =", i,j);
+            scanf("%d", &A[i] [j]);
+        }
+    }
+    return 0;
+}
